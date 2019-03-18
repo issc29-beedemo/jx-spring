@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: jxissc29.azurecr.io/issc29-beedemo/jx-spring
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: jx-spring
